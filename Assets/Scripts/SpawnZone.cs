@@ -10,6 +10,7 @@ public class SpawnZone : MonoBehaviour
 
     public BoxCollider2D localCol;
 
+    int spawnCount;
     public float spawnRate = 1f;
     float spawnTimer;
 
@@ -25,6 +26,12 @@ public class SpawnZone : MonoBehaviour
             float randy = Random.Range(localCol.bounds.min.y, localCol.bounds.max.y);
 
             GameObject.Instantiate(citizenPrefab, new Vector3(randx, randy, citizenPrefab.transform.position.z), Quaternion.identity);
+
+            spawnCount++;
+            if(spawnCount % 4 == 0)
+            {
+                spawnRate *= 0.8f;
+            }
 
             spawnTimer += spawnRate;
         }
