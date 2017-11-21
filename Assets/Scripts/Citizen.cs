@@ -37,12 +37,12 @@ public class Citizen : MonoBehaviour
         moveTimer = moveFreq;
     }
 
-    public float moveFreq;
-    public float moveTimer;
-    public float moveSpeed;
-    public float moveDist;
-    public bool isMoving;
-    public Vector3 targetPos;
+    float moveFreq;
+    float moveTimer;
+    float moveSpeed;
+    float moveDist;
+    bool isMoving;
+    Vector3 targetPos;
 
     void Update()
     {
