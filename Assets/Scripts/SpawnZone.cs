@@ -29,17 +29,4 @@ public class SpawnZone : MonoBehaviour
             spawnTimer += spawnRate;
         }
     }
-
-    void OnTriggerEnter2D(Collider2D collider)
-    {
-        Enemy enemy = collider.GetComponent<Enemy>();
-
-        if ( enemy != null )
-        {
-            MovingText movText = GameObject.Instantiate(movingTextPrefab, canvas.transform, false).GetComponent<MovingText>();
-            movText.Setup("Ouch", collider.transform.position);
-
-            Destroy(collider.gameObject);
-        }
-    }
 }

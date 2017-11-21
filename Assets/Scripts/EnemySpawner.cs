@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemySpawner : MonoBehaviour
 {
     public float enemySpeed;
-    public Transform enemyTarget;
+    public SpawnZone spawnZone;
     public GameObject enemyPrefab;
 
     public float spawnRate = 1.0f;
@@ -26,7 +26,7 @@ public class EnemySpawner : MonoBehaviour
         {
             Enemy enemy = GameObject.Instantiate(enemyPrefab, transform.position, Quaternion.identity).GetComponent<Enemy>();
 
-            enemy.Setup(enemyTarget, enemySpeed);
+            enemy.Setup(spawnZone, enemySpeed);
 
             spawnTimer += spawnRate;
         }
