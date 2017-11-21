@@ -13,11 +13,6 @@ public class SpawnZone : MonoBehaviour
     public float spawnRate = 1f;
     float spawnTimer;
 
-    void Awake()
-    {
-        spawnTimer = spawnRate;
-    }
-
     void Update()
     {
         if ( spawnTimer > 0 )
