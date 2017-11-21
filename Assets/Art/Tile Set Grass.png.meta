@@ -1,0 +1,829 @@
+fileFormatVersion: 2
+guid: 979aef6806f27604387aafa43d813e38
+timeCreated: 1511112920
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_0
+    21300002: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_1
+    21300004: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_2
+    21300006: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_3
+    21300008: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_4
+    21300010: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_5
+    21300012: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_6
+    21300014: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_7
+    21300016: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_8
+    21300018: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_9
+    21300020: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_10
+    21300022: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_11
+    21300024: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_12
+    21300026: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_13
+    21300028: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_14
+    21300030: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_15
+    21300032: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_16
+    21300034: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_17
+    21300036: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_18
+    21300038: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_19
+    21300040: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_20
+    21300042: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_21
+    21300044: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_22
+    21300046: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_23
+    21300048: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_24
+    21300050: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_25
+    21300052: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_26
+    21300054: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_27
+    21300056: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_28
+    21300058: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_29
+    21300060: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_30
+    21300062: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_31
+    21300064: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_32
+    21300066: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_33
+    21300068: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_34
+    21300070: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_35
+    21300072: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_36
+    21300074: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_37
+    21300076: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_38
+    21300078: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_39
+    21300080: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_40
+    21300082: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_41
+    21300084: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_42
+    21300086: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_43
+    21300088: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_44
+    21300090: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_45
+    21300092: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_46
+    21300094: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_47
+    21300096: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_48
+    21300098: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_49
+    21300100: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_50
+    21300102: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_51
+    21300104: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_52
+    21300106: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_53
+    21300108: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_54
+    21300110: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_55
+    21300112: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_56
+    21300114: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_57
+    21300116: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_58
+    21300118: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_59
+    21300120: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_60
+    21300122: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_61
+    21300124: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_62
+    21300126: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_63
+    21300128: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_64
+    21300130: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_65
+    21300132: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_66
+    21300134: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_67
+    21300136: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_68
+    21300138: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_69
+    21300140: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_70
+    21300142: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_71
+    21300144: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_72
+    21300146: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_73
+    21300148: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_74
+    21300150: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_75
+    21300152: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_76
+    21300154: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_77
+    21300156: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_78
+    21300158: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_79
+    21300160: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_80
+    21300162: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_81
+    21300164: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_82
+    21300166: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_83
+    21300168: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_84
+    21300170: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_85
+    21300172: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_86
+    21300174: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_87
+    21300176: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_88
+    21300178: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_89
+    21300180: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_90
+    21300182: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_91
+    21300184: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_92
+    21300186: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_93
+    21300188: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_94
+    21300190: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_95
+    21300192: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_96
+    21300194: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_97
+    21300196: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_98
+    21300198: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_99
+    21300200: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_100
+    21300202: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_101
+    21300204: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_102
+    21300206: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_103
+    21300208: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_104
+    21300210: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_105
+    21300212: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_106
+    21300214: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_107
+    21300216: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_108
+    21300218: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_109
+    21300220: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_110
+    21300222: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_111
+    21300224: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_112
+    21300226: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_113
+    21300228: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_114
+    21300230: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_115
+    21300232: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_116
+    21300234: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_117
+    21300236: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_118
+    21300238: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_119
+    21300240: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_120
+    21300242: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_121
+    21300244: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_122
+    21300246: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_123
+    21300248: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_124
+    21300250: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_125
+    21300252: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_126
+    21300254: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_127
+    21300256: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_128
+    21300258: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_129
+    21300260: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_130
+    21300262: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_131
+    21300264: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_132
+    21300266: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_133
+    21300268: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_134
+    21300270: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_135
+    21300272: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_136
+    21300274: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_137
+    21300276: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_138
+    21300278: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_139
+    21300280: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_140
+    21300282: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_141
+    21300284: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_142
+    21300286: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_143
+    21300288: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_144
+    21300290: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_145
+    21300292: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_146
+    21300294: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_147
+    21300296: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_148
+    21300298: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_149
+    21300300: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_150
+    21300302: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_151
+    21300304: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_152
+    21300306: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_153
+    21300308: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_154
+    21300310: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_155
+    21300312: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_156
+    21300314: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_157
+    21300316: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_158
+    21300318: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_159
+    21300320: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_160
+    21300322: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_161
+    21300324: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_162
+    21300326: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_163
+    21300328: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_164
+    21300330: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_165
+    21300332: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_166
+    21300334: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_167
+    21300336: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_168
+    21300338: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_169
+    21300340: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_170
+    21300342: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_171
+    21300344: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_172
+    21300346: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_173
+    21300348: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_174
+    21300350: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_175
+    21300352: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_176
+    21300354: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_177
+    21300356: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_178
+    21300358: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_179
+    21300360: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_180
+    21300362: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_181
+    21300364: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_182
+    21300366: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_183
+    21300368: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_184
+    21300370: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_185
+    21300372: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_186
+    21300374: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_187
+    21300376: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_188
+    21300378: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_189
+    21300380: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_190
+    21300382: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_191
+    21300384: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_192
+    21300386: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_193
+    21300388: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_194
+    21300390: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_195
+    21300392: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_196
+    21300394: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_197
+    21300396: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_198
+    21300398: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_199
+    21300400: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_200
+    21300402: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_201
+    21300404: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_202
+    21300406: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_203
+    21300408: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_204
+    21300410: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_205
+    21300412: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_206
+    21300414: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_207
+    21300416: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_208
+    21300418: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_209
+    21300420: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_210
+    21300422: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_211
+    21300424: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_212
+    21300426: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_213
+    21300428: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_214
+    21300430: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_215
+    21300432: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_216
+    21300434: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_217
+    21300436: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_218
+    21300438: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_219
+    21300440: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_220
+    21300442: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_221
+    21300444: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_222
+    21300446: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_223
+    21300448: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_224
+    21300450: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_225
+    21300452: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_226
+    21300454: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_227
+    21300456: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_228
+    21300458: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_229
+    21300460: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_230
+    21300462: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_231
+    21300464: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_232
+    21300466: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_233
+    21300468: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_234
+    21300470: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_235
+    21300472: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_236
+    21300474: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_237
+    21300476: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_238
+    21300478: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_239
+    21300480: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_240
+    21300482: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_241
+    21300484: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_242
+    21300486: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_243
+    21300488: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_244
+    21300490: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_245
+    21300492: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_246
+    21300494: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_247
+    21300496: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_248
+    21300498: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_249
+    21300500: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_250
+    21300502: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_251
+    21300504: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_252
+    21300506: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_253
+    21300508: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_254
+    21300510: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_255
+    21300512: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_256
+    21300514: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_257
+    21300516: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_258
+    21300518: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_259
+    21300520: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_260
+    21300522: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_261
+    21300524: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_262
+    21300526: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_263
+    21300528: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_264
+    21300530: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_265
+    21300532: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_266
+    21300534: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_267
+    21300536: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_268
+    21300538: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_269
+    21300540: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_270
+    21300542: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_271
+    21300544: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_272
+    21300546: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_273
+    21300548: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_274
+    21300550: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_275
+    21300552: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_276
+    21300554: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_277
+    21300556: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_278
+    21300558: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_279
+    21300560: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_280
+    21300562: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_281
+    21300564: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_282
+    21300566: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_283
+    21300568: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_284
+    21300570: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_285
+    21300572: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_286
+    21300574: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_287
+    21300576: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_288
+    21300578: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_289
+    21300580: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_290
+    21300582: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_291
+    21300584: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_292
+    21300586: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_293
+    21300588: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_294
+    21300590: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_295
+    21300592: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_296
+    21300594: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_297
+    21300596: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_298
+    21300598: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_299
+    21300600: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_300
+    21300602: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_301
+    21300604: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_302
+    21300606: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_303
+    21300608: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_304
+    21300610: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_305
+    21300612: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_306
+    21300614: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_307
+    21300616: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_308
+    21300618: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_309
+    21300620: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_310
+    21300622: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_311
+    21300624: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_312
+    21300626: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_313
+    21300628: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_314
+    21300630: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_315
+    21300632: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_316
+    21300634: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_317
+    21300636: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_318
+    21300638: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_319
+    21300640: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_320
+    21300642: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_321
+    21300644: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_322
+    21300646: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_323
+    21300648: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_324
+    21300650: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_325
+    21300652: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_326
+    21300654: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_327
+    21300656: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_328
+    21300658: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_329
+    21300660: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_330
+    21300662: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_331
+    21300664: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_332
+    21300666: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_333
+    21300668: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_334
+    21300670: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_335
+    21300672: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_336
+    21300674: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_337
+    21300676: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_338
+    21300678: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_339
+    21300680: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_340
+    21300682: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_341
+    21300684: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_342
+    21300686: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_343
+    21300688: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_344
+    21300690: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_345
+    21300692: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_346
+    21300694: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_347
+    21300696: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_348
+    21300698: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_349
+    21300700: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_350
+    21300702: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_351
+    21300704: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_352
+    21300706: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_353
+    21300708: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_354
+    21300710: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_355
+    21300712: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_356
+    21300714: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_357
+    21300716: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_358
+    21300718: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_359
+    21300720: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_360
+    21300722: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_361
+    21300724: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_362
+    21300726: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_363
+    21300728: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_364
+    21300730: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_365
+    21300732: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_366
+    21300734: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_367
+    21300736: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_368
+    21300738: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_369
+    21300740: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_370
+    21300742: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_371
+    21300744: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_372
+    21300746: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_373
+    21300748: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_374
+    21300750: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_375
+    21300752: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_376
+    21300754: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_377
+    21300756: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_378
+    21300758: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_379
+    21300760: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_380
+    21300762: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_381
+    21300764: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_382
+    21300766: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_383
+    21300768: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_384
+    21300770: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_385
+    21300772: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_386
+    21300774: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_387
+    21300776: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_388
+    21300778: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_389
+    21300780: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_390
+    21300782: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_391
+    21300784: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_392
+    21300786: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_393
+    21300788: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_394
+    21300790: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_395
+    21300792: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_396
+    21300794: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_397
+    21300796: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_398
+    21300798: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_399
+    21300800: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_400
+    21300802: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_401
+    21300804: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_402
+    21300806: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_403
+    21300808: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_404
+    21300810: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_405
+    21300812: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_406
+    21300814: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_407
+    21300816: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_408
+    21300818: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_409
+    21300820: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_410
+    21300822: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_411
+    21300824: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_412
+    21300826: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_413
+    21300828: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_414
+    21300830: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_415
+    21300832: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_416
+    21300834: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_417
+    21300836: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_418
+    21300838: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_419
+    21300840: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_420
+    21300842: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_421
+    21300844: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_422
+    21300846: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_423
+    21300848: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_424
+    21300850: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_425
+    21300852: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_426
+    21300854: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_427
+    21300856: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_428
+    21300858: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_429
+    21300860: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_430
+    21300862: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_431
+    21300864: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_432
+    21300866: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_433
+    21300868: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_434
+    21300870: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_435
+    21300872: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_436
+    21300874: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_437
+    21300876: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_438
+    21300878: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_439
+    21300880: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_440
+    21300882: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_441
+    21300884: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_442
+    21300886: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_443
+    21300888: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_444
+    21300890: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_445
+    21300892: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_446
+    21300894: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_447
+    21300896: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_448
+    21300898: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_449
+    21300900: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_450
+    21300902: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_451
+    21300904: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_452
+    21300906: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_453
+    21300908: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_454
+    21300910: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_455
+    21300912: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_456
+    21300914: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_457
+    21300916: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_458
+    21300918: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_459
+    21300920: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_460
+    21300922: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_461
+    21300924: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_462
+    21300926: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_463
+    21300928: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_464
+    21300930: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_465
+    21300932: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_466
+    21300934: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_467
+    21300936: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_468
+    21300938: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_469
+    21300940: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_470
+    21300942: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_471
+    21300944: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_472
+    21300946: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_473
+    21300948: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_474
+    21300950: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_475
+    21300952: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_476
+    21300954: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_477
+    21300956: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_478
+    21300958: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_479
+    21300960: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_480
+    21300962: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_481
+    21300964: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_482
+    21300966: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_483
+    21300968: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_484
+    21300970: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_485
+    21300972: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_486
+    21300974: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_487
+    21300976: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_488
+    21300978: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_489
+    21300980: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_490
+    21300982: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_491
+    21300984: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_492
+    21300986: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_493
+    21300988: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_494
+    21300990: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_495
+    21300992: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_496
+    21300994: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_497
+    21300996: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_498
+    21300998: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_499
+    21301000: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_500
+    21301002: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_501
+    21301004: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_502
+    21301006: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_503
+    21301008: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_504
+    21301010: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_505
+    21301012: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_506
+    21301014: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_507
+    21301016: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_508
+    21301018: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_509
+    21301020: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_510
+    21301022: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_511
+    21301024: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_512
+    21301026: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_513
+    21301028: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_514
+    21301030: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_515
+    21301032: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_516
+    21301034: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_517
+    21301036: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_518
+    21301038: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_519
+    21301040: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_520
+    21301042: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_521
+    21301044: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_522
+    21301046: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_523
+    21301048: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_524
+    21301050: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_525
+    21301052: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_526
+    21301054: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_527
+    21301056: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_528
+    21301058: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_529
+    21301060: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_530
+    21301062: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_531
+    21301064: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_532
+    21301066: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_533
+    21301068: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_534
+    21301070: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_535
+    21301072: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_536
+    21301074: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_537
+    21301076: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_538
+    21301078: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_539
+    21301080: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_540
+    21301082: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_541
+    21301084: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_542
+    21301086: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_543
+    21301088: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_544
+    21301090: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_545
+    21301092: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_546
+    21301094: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_547
+    21301096: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_548
+    21301098: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_549
+    21301100: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_550
+    21301102: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_551
+    21301104: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_552
+    21301106: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_553
+    21301108: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_554
+    21301110: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_555
+    21301112: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_556
+    21301114: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_557
+    21301116: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_558
+    21301118: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_559
+    21301120: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_560
+    21301122: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_561
+    21301124: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_562
+    21301126: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_563
+    21301128: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_564
+    21301130: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_565
+    21301132: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_566
+    21301134: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_567
+    21301136: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_568
+    21301138: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_569
+    21301140: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_570
+    21301142: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_571
+    21301144: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_572
+    21301146: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_573
+    21301148: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_574
+    21301150: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_575
+    21301152: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_576
+    21301154: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_577
+    21301156: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_578
+    21301158: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_579
+    21301160: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_580
+    21301162: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_581
+    21301164: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_582
+    21301166: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_583
+    21301168: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_584
+    21301170: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_585
+    21301172: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_586
+    21301174: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_587
+    21301176: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_588
+    21301178: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_589
+    21301180: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_590
+    21301182: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_591
+    21301184: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_592
+    21301186: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_593
+    21301188: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_594
+    21301190: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_595
+    21301192: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_596
+    21301194: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_597
+    21301196: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_598
+    21301198: Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset_599
+    21301200: Tile Set Grass_0
+    21301202: Tile Set Grass_1
+    21301204: Tile Set Grass_2
+    21301206: Tile Set Grass_3
+    21301208: Tile Set Grass_4
+    21301210: Tile Set Grass_5
+    21301212: Tile Set Grass_6
+    21301214: Tile Set Grass_7
+    21301216: Tile Set Grass_8
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: -1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tile Set Grass_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tile Set Grass_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tile Set Grass_2
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tile Set Grass_3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tile Set Grass_4
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tile Set Grass_5
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tile Set Grass_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tile Set Grass_7
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tile Set Grass_8
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline:
+    - - {x: -205, y: 213.5}
+      - {x: -205, y: -213.5}
+      - {x: 205, y: -213.5}
+      - {x: 205, y: 213.5}
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
