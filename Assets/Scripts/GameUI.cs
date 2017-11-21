@@ -38,11 +38,21 @@ public class GameUI : MonoBehaviour
             yield return oneSecond;
         }
 
+        // TODO(Chris) Gross? Or just easy and nice enough?
+        var spawner = FindObjectOfType<SpawnZone>();
+        spawner.gameObject.SetActive(false);
+
+        var citizens = FindObjectsOfType<Citizen>();
+        for(int i = 0; i < citizens.Length; i++)
+        {
+            citizens[i].gameObject.SetActive(false);
+        }
+
         gameOver.SetActive(true);
     }
 
     public void RestartButton()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("main.unity");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("main");
     }
 }
