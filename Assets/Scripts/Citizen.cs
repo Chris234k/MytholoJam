@@ -89,6 +89,11 @@ public class Citizen : MonoBehaviour
         }
     }
 
+    void OnMouseDown()
+    {
+		RemoveBubble();
+    }
+
     void OnMouseDrag()
     {
         Vector3 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -108,13 +113,20 @@ public class Citizen : MonoBehaviour
         }
     }
 
-    void OnMouseEnter()
-    {
-        bubble.GetComponent<SpriteRenderer>().color = new Color(255, 255, 255, 255);
+    void OnMouseEnter() {
+		if (!Input.GetMouseButton(0))
+		{
+			bubble.GetComponent<SpriteRenderer>().color = new Color(255, 255, 255, 255);
+		}
     }
 
     void OnMouseExit()
     {
-        bubble.GetComponent<SpriteRenderer>().color = new Color(255, 255, 255, 0);
+		RemoveBubble();
+    }
+
+    void RemoveBubble()
+    {
+		bubble.GetComponent<SpriteRenderer>().color = new Color(255, 255, 255, 0);
     }
 }
