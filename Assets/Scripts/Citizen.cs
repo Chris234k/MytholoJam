@@ -27,16 +27,15 @@ public class Citizen : MonoBehaviour
         if (Helper.RollDie(10) != 1) // X% of citizens are unaligned
         {
         	alignment = (Alignment)0;
+        	holiness = Random.Range(1, 6);
         }
         else // Rest of citizens are aligned to random god
         {
 			int randAlign = Random.Range(1, 4);
         	alignment = (Alignment)randAlign;
-        	bubble.GetComponent<SpriteRenderer>().sprite = bubbleSprites[randAlign - 1];
+			bubble.GetComponent<SpriteRenderer>().sprite = bubbleSprites[randAlign - 1];
+        	holiness = Random.Range(6, 11);
         }
-
-        int randHoly = Random.Range(1, 11);
-        holiness = randHoly;
 
         moveFreq = Random.Range(1.0f, 7.0f);
         moveSpeed = Random.Range(0.2f, 1.0f);
@@ -135,5 +134,12 @@ public class Citizen : MonoBehaviour
     void RemoveBubble()
     {
 		bubble.GetComponent<SpriteRenderer>().color = new Color(255, 255, 255, 0);
+    }
+
+    void OnConvert(int newAlignment)
+    {
+		alignment = (Alignment)newAlignment;
+		bubble.GetComponent<SpriteRenderer>().sprite = bubbleSprites[newAlignment - 1];
+    	holiness += 5;
     }
 }
