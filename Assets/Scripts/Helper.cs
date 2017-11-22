@@ -17,4 +17,9 @@ public class Helper
 
 		return array;
 	}
+
+	public static int RollDie(int sides)
+	{
+		return Random.Range(1, sides);
+	}
 }
