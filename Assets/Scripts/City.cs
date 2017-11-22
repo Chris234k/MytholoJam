@@ -5,12 +5,14 @@ using UnityEngine.UI;
 
 public class City : MonoBehaviour
 {
-    int divinity;
+    public int divinity;
     public Text display;
 
     public GameObject movingTextPrefab;
     public Canvas canvas;
 	public Alignment alignment;
+
+	bool thresholdReached;
 
     const string textFormat = "Divinity: {0}";
 
@@ -18,6 +20,16 @@ public class City : MonoBehaviour
     {
         divinity = 0;
         display.text = string.Format(textFormat, divinity);
+        thresholdReached = false;
+    }
+
+    void Update()
+    {
+    	if (divinity >= 15 && thresholdReached == false)
+    	{
+			this.GetComponentInParent<CitiesManager>().SendMessage("UnlockAbility", this, SendMessageOptions.DontRequireReceiver);
+			thresholdReached = true;
+    	}
     }
 
     void OnCitizenDropped(Citizen citizen)
