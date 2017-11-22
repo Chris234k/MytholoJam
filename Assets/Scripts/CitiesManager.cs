@@ -8,11 +8,6 @@ public class CitiesManager : MonoBehaviour
 
 	void Start() 
 	{
-		Helper.ShuffleGameObjects(cities);
-
-		for (int i = 0; i < cities.Length; i++)
-		{
-			cities[i].alignment = (Alignment)i+1;
-		}
+		
 	}
 }
