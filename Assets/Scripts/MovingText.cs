@@ -15,11 +15,12 @@ public class MovingText : MonoBehaviour
 
     bool isSetup;
 
-    public void Setup(string text, Vector2 worldPos)
+    public void Setup(string text, Color color, Vector2 worldPos)
     {
         this.startPos = worldPos;
         transform.position = startPos;
         this.text.text = text;
+        this.text.color = color;
 
         isSetup = true;
     }
