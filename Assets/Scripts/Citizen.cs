@@ -24,9 +24,16 @@ public class Citizen : MonoBehaviour
     {
         localCol = GetComponent<BoxCollider2D>();
 
-        int randAlign = Random.Range(1, 4);
-        alignment = (Alignment)randAlign;
-        bubble.GetComponent<SpriteRenderer>().sprite = bubbleSprites[randAlign - 1];
+        if (Helper.RollDie(10) != 1) // X% of citizens are unaligned
+        {
+        	alignment = (Alignment)0;
+        }
+        else // Rest of citizens are aligned to random god
+        {
+			int randAlign = Random.Range(1, 4);
+        	alignment = (Alignment)randAlign;
+        	bubble.GetComponent<SpriteRenderer>().sprite = bubbleSprites[randAlign - 1];
+        }
 
         int randHoly = Random.Range(1, 11);
         holiness = randHoly;
