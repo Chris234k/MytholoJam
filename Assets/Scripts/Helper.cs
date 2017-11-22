@@ -20,6 +20,6 @@ public class Helper
 
 	public static int RollDie(int sides)
 	{
-		return Random.Range(1, sides);
+		return Random.Range(1, sides + 1);
 	}
 }
