@@ -24,8 +24,8 @@ public class City : MonoBehaviour
     {
     	string divinityOperation;
     	Color textColor;
-
-    	if (alignment == citizen.alignment)
+		
+    	if (citizen.alignment == (Alignment)0 || alignment == citizen.alignment)
 		{
         	divinity += citizen.holiness;
 			divinityOperation = "+";
@@ -43,7 +43,7 @@ public class City : MonoBehaviour
         MovingText movText = GameObject.Instantiate(movingTextPrefab, canvas.transform, false).GetComponent<MovingText>();
 
         movText.Setup(
-			string.Format("{0} {1}{2}", citizen.alignment.ToString(), divinityOperation, citizen.holiness.ToString()),
+			string.Format("{0}{1}{2}", (citizen.alignment != (Alignment)0) ? citizen.alignment.ToString() + " " : "", divinityOperation, citizen.holiness.ToString()),
 			textColor,
             Camera.main.ScreenToWorldPoint(Input.mousePosition));
 
