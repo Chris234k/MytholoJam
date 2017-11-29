@@ -11,13 +11,15 @@ public class SkillNode : MonoBehaviour
     Button localButton;
 
     static Color clrAvailable = Color.white,
-        clrUnavailable = Color.black, 
+        clrUnavailable = Color.black,
         clrUnlocked = Color.gray;
 
     public int points, required;
     public bool isUnlocked, isAvailable;
 
     public List<SkillNode> preReqs;
+
+    public Material lineMat;
 
     public UnityEvent OnUnlock; // Respond to unlock via inspector reference. Just drag in what should happen on unlock.
     public static System.Action<SkillNode> OnNodeUnlocked;
@@ -30,7 +32,7 @@ public class SkillNode : MonoBehaviour
 
         isAvailable = CheckAvailability();
 
-        if(isAvailable)
+        if ( isAvailable )
         {
             localImage.color = clrAvailable;
         }
@@ -106,13 +108,23 @@ public class SkillNode : MonoBehaviour
             localImage.color = clrUnavailable;
         }
     }
-    
 
-    void OnDrawGizmos() // For help visualizing dependencies in editor
+    void OnRenderObject() // oh boy
     {
-        for(int i = 0; i < preReqs.Count; i++)
+        UnityEngine.Profiling.Profiler.BeginSample("Skill Tree Lines");
+        for ( int i = 0; i < preReqs.Count; i++ )
         {
-            Gizmos.DrawLine(preReqs[i].transform.position, transform.position);
+            GL.PushMatrix();
+            lineMat.SetPass(0);
+            //GL.LoadIdentity();
+            //GL.MultMatrix(Camera.main.cameraToWorldMatrix); // The correct solution is not to specify any matrix ??
+            GL.Begin(GL.LINES); // TODO(Chris) How to set render order on the lines (below canvas pls)
+            GL.Color(Color.white);
+            GL.Vertex(preReqs[i].transform.position);
+            GL.Vertex(transform.position);
+            GL.End();
+            GL.PopMatrix();
         }
+        UnityEngine.Profiling.Profiler.EndSample();
     }
 }
