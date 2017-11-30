@@ -24,10 +24,12 @@ public class AbilityDrawer : PropertyDrawer
         // Calculate rects
         var unlockedRect = new Rect(position.x, position.y, 30, position.height);
         var keycodeRect = new Rect(position.x + 35, position.y, 75, position.height);
+        var cooldownRect = new Rect(position.x + 125, position.y, 50, position.height);
 
         // Draw fields - passs GUIContent.none to each so they are drawn without labels
         EditorGUI.PropertyField(unlockedRect, property.FindPropertyRelative("unlocked"), GUIContent.none);
         EditorGUI.PropertyField(keycodeRect, property.FindPropertyRelative("keycode"), GUIContent.none);
+        EditorGUI.PropertyField(cooldownRect, property.FindPropertyRelative("cooldown"), GUIContent.none);
 
         // Set indent back to what it was
         EditorGUI.indentLevel = indent;

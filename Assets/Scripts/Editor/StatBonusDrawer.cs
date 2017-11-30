@@ -27,7 +27,7 @@ public class StatBonusDrawer : PropertyDrawer
 
         // Draw fields - passs GUIContent.none to each so they are drawn without labels
         EditorGUI.PropertyField(unlockedRect, property.FindPropertyRelative("unlocked"), GUIContent.none);
-        EditorGUI.PropertyField(bonusRect, property.FindPropertyRelative("bonus"), GUIContent.none);
+        EditorGUI.PropertyField(bonusRect, property.FindPropertyRelative("value"), GUIContent.none);
 
         // Set indent back to what it was
         EditorGUI.indentLevel = indent;

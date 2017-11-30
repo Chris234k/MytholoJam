@@ -5,11 +5,11 @@ using UnityEngine;
 public class Unlocks : MonoBehaviour
 {
     public Ability zeus, poseidon, athena;
-    public StatBonus zeusBonus, poseidonBonus, athenaBonus;
+    public StatBonus zeusBonus, poseidonBonus, athenaBonus; // Successive unlocks can modify StatBonus.value rather than having numerous stat bonus classes
 
 
     // TODO(Chris) Gross dude
-    // Necessary activating from UnityEvent in SkillNode
+    // Necessary in activating from UnityEvent via SkillNode
     public void UnlockZeus()
     {
         zeus.unlocked = true;
@@ -41,18 +41,38 @@ public class Unlocks : MonoBehaviour
     }
 }
 
-// See AbilityDrawer
-[System.Serializable]
+[System.Serializable] // See AbilityDrawer
 public class Ability
 {
     public bool unlocked;
     public KeyCode keycode;
+    public float cooldown;
+    public float lastUsedTime;
+
+
+    public bool CanBeCast(float currentTime)
+    {
+        bool result = false;
+
+        if ( unlocked )
+        {
+            if ( Input.GetKeyDown(keycode) )
+            {
+                if ( currentTime - lastUsedTime >= cooldown ) // simple cooldown timer
+                {
+                    result = true;
+                }
+            }
+        }
+
+        return result;
+    }
 }
 
-// See StatBonusDrawer
-[System.Serializable]
+
+[System.Serializable] // See StatBonusDrawer
 public class StatBonus
 {
     public bool unlocked;
-    public float bonus;
+    public float value;
 }
