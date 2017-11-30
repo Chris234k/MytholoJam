@@ -11,7 +11,7 @@ public class CitiesManager : MonoBehaviour
 
     void Update()
     {
-        if ( unlocks.zeus.CanBeCast(Time.time) )
+        if ( unlocks.zeus.IsAvailable(Time.time) )
         {
             unlocks.zeus.lastUsedTime = Time.time;
 
@@ -19,13 +19,13 @@ public class CitiesManager : MonoBehaviour
             GameObject.Instantiate(zeusAOE).transform.localScale *= scaleMulti; // TODO(Chris) Imagine that this actually changes something mechanically
         }
 
-        if ( unlocks.poseidon.CanBeCast(Time.time) )
+        if ( unlocks.poseidon.IsAvailable(Time.time) )
         {
             unlocks.poseidon.lastUsedTime = Time.time;
 
         }
 
-        if ( unlocks.athena.CanBeCast(Time.time) )
+        if ( unlocks.athena.IsAvailable(Time.time) )
         {
             unlocks.athena.lastUsedTime = Time.time;
 

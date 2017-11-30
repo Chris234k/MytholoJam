@@ -12,17 +12,17 @@ public class Unlocks : MonoBehaviour
     // Necessary in activating from UnityEvent via SkillNode
     public void UnlockZeus()
     {
-        zeus.unlocked = true;
+        zeus.isUnlocked = true;
     }
 
     public void UnlockPoseidon()
     {
-        poseidon.unlocked = true;
+        poseidon.isUnlocked = true;
     }
 
     public void UnlockAthena()
     {
-        athena.unlocked = true;
+        athena.isUnlocked = true;
     }
 
     public void UnlockZeusBonus()
@@ -44,17 +44,17 @@ public class Unlocks : MonoBehaviour
 [System.Serializable] // See AbilityDrawer
 public class Ability
 {
-    public bool unlocked;
+    public bool isUnlocked;
     public KeyCode keycode;
     public float cooldown;
     public float lastUsedTime;
 
 
-    public bool CanBeCast(float currentTime)
+    public bool IsAvailable(float currentTime)
     {
         bool result = false;
 
-        if ( unlocked )
+        if ( isUnlocked )
         {
             if ( Input.GetKeyDown(keycode) )
             {
