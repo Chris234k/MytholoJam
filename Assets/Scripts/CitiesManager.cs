@@ -7,25 +7,32 @@ public class CitiesManager : MonoBehaviour
     public City zeusCity, poseidonCity, athenaCity;
     public GameObject zeusAOE;
 
-    public Unlocks unlocks; // TODO(Chris) Move this to some central location? or maybe just have other scripts reference. Honestly pretty good either way.
-
     void Update()
     {
-        if ( unlocks.zeus.IsAvailable(Time.time) )
-        {
-            unlocks.zeus.lastUsedTime = Time.time;
+        Unlocks unlocks = Unlocks.instance;
 
-            float scaleMulti = unlocks.zeusBonus.unlocked ? unlocks.zeusBonus.value : 1;
-            GameObject.Instantiate(zeusAOE).transform.localScale *= scaleMulti; // TODO(Chris) Imagine that this actually changes something mechanically
+        if ( unlocks.zeus.isUnlocked ) // Custom usage, since there is a speed power up.
+        {
+            if(Input.GetKeyDown(unlocks.zeus.keycode))
+            {
+                float speedMulti = unlocks.zeusSpeed.isUnlocked ? unlocks.zeusSpeed.value : 1;
+
+                if (Time.time - unlocks.zeus.lastUsedTime >= (unlocks.zeus.cooldown * speedMulti))
+                {
+                    unlocks.zeus.lastUsedTime = Time.time;
+
+                    GameObject.Instantiate(zeusAOE);
+                }
+            }
         }
 
-        if ( unlocks.poseidon.IsAvailable(Time.time) )
+        if ( unlocks.poseidon.AttemptUse(Time.time) )
         {
             unlocks.poseidon.lastUsedTime = Time.time;
 
         }
 
-        if ( unlocks.athena.IsAvailable(Time.time) )
+        if ( unlocks.athena.AttemptUse(Time.time) )
         {
             unlocks.athena.lastUsedTime = Time.time;
 
