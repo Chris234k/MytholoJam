@@ -14,10 +14,17 @@ public class City : MonoBehaviour
 
 	bool thresholdReached;
 
+    public static Dictionary<Alignment, int> scores; // For reference from the game over scene. Reset on Start.
+
     const string textFormat = "{0}: {1}";
 
     void Start()
     {
+        scores = new Dictionary<Alignment, int>();
+        scores.Add(Alignment.Athena, 0);
+        scores.Add(Alignment.Poseidon, 0);
+        scores.Add(Alignment.Zeus, 0);
+
         divinity = 0;
         display.text = string.Format(textFormat, alignment, divinity);
         thresholdReached = false;
@@ -52,7 +59,9 @@ public class City : MonoBehaviour
 
         display.text = string.Format(textFormat, alignment, divinity);
 
-        MovingText movText = GameObject.Instantiate(movingTextPrefab, canvas.transform, false).GetComponent<MovingText>();
+        scores[alignment] = divinity;
+
+        MovingText movText = Instantiate(movingTextPrefab, canvas.transform, false).GetComponent<MovingText>();
 
         movText.Setup(
 			string.Format("{0} {1}{2}", alignment, divinityOperation, citizen.holiness.ToString()),
