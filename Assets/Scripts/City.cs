@@ -14,12 +14,12 @@ public class City : MonoBehaviour
 
 	bool thresholdReached;
 
-    const string textFormat = "Divinity: {0}";
+    const string textFormat = "{0}: {1}";
 
     void Start()
     {
         divinity = 0;
-        display.text = string.Format(textFormat, divinity);
+        display.text = string.Format(textFormat, alignment, divinity);
         thresholdReached = false;
     }
 
@@ -50,7 +50,7 @@ public class City : MonoBehaviour
         	textColor = new Color(255, 0, 0);
     	}
 
-        display.text = string.Format(textFormat, divinity);
+        display.text = string.Format(textFormat, alignment, divinity);
 
         MovingText movText = GameObject.Instantiate(movingTextPrefab, canvas.transform, false).GetComponent<MovingText>();
 
