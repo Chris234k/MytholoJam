@@ -5,7 +5,7 @@ using UnityEngine;
 public class CitiesManager : MonoBehaviour
 {
     public City zeusCity, poseidonCity, athenaCity;
-    public GameObject zeusAOE;
+    public GameObject zeusZapPrefab;
 
     void Update()
     {
@@ -21,7 +21,7 @@ public class CitiesManager : MonoBehaviour
                 {
                     unlocks.zeus.lastUsedTime = Time.time;
 
-                    GameObject.Instantiate(zeusAOE);
+                    Instantiate(zeusZapPrefab);
                 }
             }
         }
