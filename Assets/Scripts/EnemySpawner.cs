@@ -7,6 +7,7 @@ public class EnemySpawner : MonoBehaviour
     public float enemySpeed;
     public SpawnZone spawnZone;
     public GameObject enemyPrefab;
+    public GameObject[] targetCities;
 
     public float spawnRate = 1.0f;
     float spawnTimer;
@@ -26,7 +27,7 @@ public class EnemySpawner : MonoBehaviour
         {
             Enemy enemy = GameObject.Instantiate(enemyPrefab, transform.position, Quaternion.identity).GetComponent<Enemy>();
 
-            enemy.Setup(spawnZone, enemySpeed);
+            enemy.Setup(spawnZone, enemySpeed, targetCities);
 
             spawnTimer += spawnRate;
         }

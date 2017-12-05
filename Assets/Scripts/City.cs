@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class City : MonoBehaviour
 {
     public int divinity;
+    public int health;
     public Text display;
 
     public GameObject movingTextPrefab;
@@ -19,6 +20,7 @@ public class City : MonoBehaviour
     void Start()
     {
         divinity = 0;
+        health = 20;
         display.text = string.Format(textFormat, divinity);
         thresholdReached = false;
     }

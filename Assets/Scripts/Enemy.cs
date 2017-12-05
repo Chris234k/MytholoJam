@@ -6,16 +6,18 @@ public class Enemy : MonoBehaviour
 {
     SpawnZone spawnZone;
     Transform target;
+    GameObject[] targetCities;
     float speed;
     bool isSetup;
     float endScale;
 
     public BoxCollider2D localCol;
 
-    public void Setup(SpawnZone spawnZone, float speed)
+    public void Setup(SpawnZone spawnZone, float speed, GameObject[] targetCities)
     {
         this.spawnZone = spawnZone;
         this.speed = speed;
+        this.targetCities = targetCities;
 
         target = GetTarget(spawnZone);
         endScale = transform.localScale.x * 1.5f;
@@ -25,7 +27,18 @@ public class Enemy : MonoBehaviour
 
     private Transform GetTarget(SpawnZone spawnZone)
     {
-        Bounds spawnBounds = spawnZone.localCol.bounds;
+    	if (targetCities.Length > 0)
+		{
+			GameObject targetCity = targetCities[Random.Range(0, targetCities.Length)];
+			return targetCity.transform;
+    	}
+    	else
+    	{
+			StartCoroutine(DeathRoutine());
+    		return transform;
+    	}
+
+        /*Bounds spawnBounds = spawnZone.localCol.bounds;
 
         // TODO(Chris) Only allow collison on citizen layer
         var hitObjs = Physics2D.OverlapBoxAll(spawnBounds.center, spawnBounds.size, 0);
@@ -57,8 +70,9 @@ public class Enemy : MonoBehaviour
         {
             Debug.LogWarning("No citizens in spawn, I die");
             StartCoroutine(DeathRoutine());
+
             return transform;
-        }
+        }*/
     }
 
     void Update()
@@ -80,8 +94,8 @@ public class Enemy : MonoBehaviour
             }
             else
             {
-                Destroy(target.gameObject);
-                StartCoroutine(DeathRoutine());
+                //Destroy(target.gameObject);
+				//GetTarget(spawnZone);
             }
             
         }
