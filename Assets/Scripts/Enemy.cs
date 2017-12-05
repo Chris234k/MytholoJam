@@ -6,18 +6,22 @@ public class Enemy : MonoBehaviour
 {
     SpawnZone spawnZone;
     Transform target;
-    GameObject[] targetCities;
+    List<GameObject> targetCities;
     float speed;
     bool isSetup;
+    bool hasAttacked;
     float endScale;
 
+    public int power;
     public BoxCollider2D localCol;
 
-    public void Setup(SpawnZone spawnZone, float speed, GameObject[] targetCities)
+	public void Setup(SpawnZone spawnZone, float speed, List<GameObject> targetCities)
     {
         this.spawnZone = spawnZone;
         this.speed = speed;
         this.targetCities = targetCities;
+
+        power = Random.Range(1, 4);
 
         target = GetTarget(spawnZone);
         endScale = transform.localScale.x * 1.5f;
@@ -27,9 +31,9 @@ public class Enemy : MonoBehaviour
 
     private Transform GetTarget(SpawnZone spawnZone)
     {
-    	if (targetCities.Length > 0)
+    	if (targetCities.Count > 0)
 		{
-			GameObject targetCity = targetCities[Random.Range(0, targetCities.Length)];
+			GameObject targetCity = targetCities[Random.Range(0, targetCities.Count)];
 			return targetCity.transform;
     	}
     	else
@@ -79,8 +83,9 @@ public class Enemy : MonoBehaviour
     {
         if ( isSetup )
         {
-            if ( target == null ) // Targets are citizens; citizens are destroyed when added to a city
+            if ( target == null || !target.gameObject.activeSelf) // Targets are citizens; citizens are destroyed when added to a city
             {
+            	targetCities.Remove(target.gameObject);
                 target = GetTarget(spawnZone);
             }
 
@@ -94,8 +99,12 @@ public class Enemy : MonoBehaviour
             }
             else
             {
-                //Destroy(target.gameObject);
-				//GetTarget(spawnZone);
+            	if (!hasAttacked)
+				{
+            		StartCoroutine(DeathRoutine());
+            	}
+
+            	hasAttacked = true;
             }
             
         }
@@ -103,9 +112,9 @@ public class Enemy : MonoBehaviour
 
     void OnMouseDown()
     {
-        isSetup = false;
-        localCol.enabled = false;
-        StartCoroutine(DeathRoutine());
+        //isSetup = false;
+        //localCol.enabled = false;
+        //StartCoroutine(DeathRoutine());
     }
 
     IEnumerator DeathRoutine()
@@ -113,12 +122,17 @@ public class Enemy : MonoBehaviour
         while ( transform.localScale.x < endScale )
         {
             float scale = transform.localScale.x;
-            scale += ( scale * 2.5f ) * Time.deltaTime;
+            scale += ( scale * 2 ) * Time.deltaTime;
             transform.localScale = Vector3.one * scale;
 
             yield return new WaitForEndOfFrame();
-        }
+		}
 
-        Destroy(gameObject);
+		if (target.gameObject.activeSelf)
+		{
+			target.gameObject.SendMessage("OnEnemyAttack", this, SendMessageOptions.DontRequireReceiver);
+		}
+
+		Destroy(gameObject);
     }
 }

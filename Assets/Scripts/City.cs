@@ -26,19 +26,14 @@ public class City : MonoBehaviour
         scores.Add(Alignment.Poseidon, 0);
         scores.Add(Alignment.Zeus, 0);
 
-        divinity = 0;
-        health = 20;
+        divinity = 5;
         display.text = string.Format(textFormat, alignment, divinity);
         thresholdReached = false;
     }
 
     void Update()
     {
-    	if (divinity >= 15 && thresholdReached == false)
-    	{
-			this.GetComponentInParent<CitiesManager>().SendMessage("UnlockAbility", this, SendMessageOptions.DontRequireReceiver);
-			thresholdReached = true;
-    	}
+    	
     }
 
     void OnCitizenDropped(Citizen citizen)
@@ -51,6 +46,12 @@ public class City : MonoBehaviour
         	divinity += citizen.holiness;
 			divinityOperation = "+";
         	textColor = new Color(0, 0, 255);
+
+			if (divinity >= 15 && thresholdReached == false)
+	    	{
+				this.GetComponentInParent<CitiesManager>().SendMessage("UnlockAbility", this, SendMessageOptions.DontRequireReceiver);
+				thresholdReached = true;
+	    	}
     	}
     	else 
     	{
@@ -59,17 +60,35 @@ public class City : MonoBehaviour
         	textColor = new Color(255, 0, 0);
     	}
 
-        display.text = string.Format(textFormat, alignment, divinity);
+		CreateMovingText(textColor, divinityOperation, citizen.holiness);
+
+        Destroy(citizen.gameObject);
+    }
+
+    void OnEnemyAttack(Enemy enemy)
+    {
+    	divinity -= enemy.power;
+
+		if (divinity < 0)
+    	{
+    		display.transform.parent.gameObject.SetActive(false);
+    		gameObject.SetActive(false);
+    	}
+
+		CreateMovingText(new Color(255, 0, 0), "-", enemy.power);
+    }
+
+    void CreateMovingText(Color textColor, string operation, int amount)
+    {
+		display.text = string.Format(textFormat, alignment, divinity);
 
         scores[alignment] = divinity;
 
         MovingText movText = Instantiate(movingTextPrefab, canvas.transform, false).GetComponent<MovingText>();
 
         movText.Setup(
-			string.Format("{0} {1}{2}", alignment, divinityOperation, citizen.holiness.ToString()),
+			string.Format("{0} {1}{2}", alignment, operation, amount.ToString()),
 			textColor,
-            Camera.main.ScreenToWorldPoint(Input.mousePosition));
-
-        Destroy(citizen.gameObject);
+			transform.position);
     }
 }
