@@ -6,6 +6,7 @@ public class AreaOfEffect : MonoBehaviour
 {
 
 	void OnEnable() {
+
 		CircleCollider2D collider = GetComponent<CircleCollider2D>();
 		var overlapped = Physics2D.OverlapCircleAll(collider.bounds.center, collider.radius);
 

@@ -30,7 +30,8 @@ public class SpawnZone : MonoBehaviour
             spawnCount++;
             if(spawnCount % 4 == 0)
             {
-                spawnRate *= 0.8f;
+                spawnRate *= 0.95f;
+                spawnRate = Mathf.Max(spawnRate, 0.8f);
             }
 
             spawnTimer += spawnRate;

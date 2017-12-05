@@ -2,34 +2,40 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CitiesManager : MonoBehaviour 
+public class CitiesManager : MonoBehaviour
 {
-	public City zeusCity, poseidonCity, athenaCity;
-	public GameObject zeusAOE;
+    public City zeusCity, poseidonCity, athenaCity;
+    public GameObject zeusZapPrefab;
 
-	bool zeusAbilityUnlocked, poseidonAbilityUnlocked, athenaAbilityUnlocked;
+    void Update()
+    {
+        Unlocks unlocks = Unlocks.instance;
 
-	void Update() 
-	{
-		if (Input.GetKeyDown("z") && zeusAbilityUnlocked)
-    	{
-    		GameObject.Instantiate(zeusAOE);
-    	}
-	}
+        if ( unlocks.zeus.isUnlocked ) // Custom usage, since there is a speed power up.
+        {
+            if(Input.GetKeyDown(unlocks.zeus.keycode))
+            {
+                float speedMulti = unlocks.zeusSpeed.isUnlocked ? unlocks.zeusSpeed.value : 1;
 
-	void UnlockAbility(City city)
-	{
-		switch (city.alignment)
-		{
-			case Alignment.Zeus: 
-				zeusAbilityUnlocked = true; 
-				break;
-			case Alignment.Poseidon: 
-				poseidonAbilityUnlocked = true;
-				break;
-			case Alignment.Athena: 
-				athenaAbilityUnlocked = true;
-				break;
-		}
-	}
+                if (Time.time - unlocks.zeus.lastUsedTime >= (unlocks.zeus.cooldown * speedMulti))
+                {
+                    unlocks.zeus.lastUsedTime = Time.time;
+
+                    Instantiate(zeusZapPrefab);
+                }
+            }
+        }
+
+        if ( unlocks.poseidon.AttemptUse(Time.time) )
+        {
+            unlocks.poseidon.lastUsedTime = Time.time;
+
+        }
+
+        if ( unlocks.athena.AttemptUse(Time.time) )
+        {
+            unlocks.athena.lastUsedTime = Time.time;
+
+        }
+    }
 }
